@@ -1,6 +1,6 @@
 <h1>kodluyoruz</h1> 
 <!--açıklama yazıları buraya yazılır,kendi içine görmeesi için tasarlanır.kullanıcı görmez.sonucu etkilemez.-->
- <!-- <h2>deneme</h2> control ö ile birlikte açıklaa satırına dönüştürülür -->
+ <!-- <h2>deneme</h2> !!!!!control ö ile birlikte açıklaa satırına dönüştürülür -->
 
 
  <!-- 
@@ -68,3 +68,173 @@ Liste elemanlarının başındaki içi dolu daireyi değiştirebilir veya silebi
    <li>Bilgisayar</li>
    <li>Yazıcı</li>
  </ul>
+
+ !!!!EĞER EMMETT ABERVATION ÇALIŞMAZSA SİLMEK YERİNE CTRL+SPACEBAR YAPILABİLİR 
+
+---------
+<!--etiket isimleri direkt verilebiliyor, h1 h2 gibi.
+
++kardeş öğe
+
+>içinde öğe
+
+^yukarı çık 
+
+*çarp
+
+. class oluşturmak
+
+#id oluşturmak için
+-->
+kardeş element, öğe
++ ile yapılır. h1 + h2 ile bu öge olşur
+<h1></h1>
+<h2></h2>
+
+
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+
+<h1></h1> çarpılarla da daha kısa yazılabilir
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<ul>
+   <li></li>
+</ul>
+
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+<p></p>
+
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+<p></p>
+<h3></h3> p ve h3 kardeş elemandır
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sint aliquid. Ducimus quod architecto a animi, itaque nesciunt suscipit eos, odio, repudiandae hic praesentium asperiores inventore sunt ut dolore placeat?</p>
+
+Lorem ipsum dolor sit amet.
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+<ul>
+   <li>Lorem ipsum dolor sit amet.</li>
+   <li>Maxime dolorem et minima accusamus.</li>
+   <li>Fugit labore corrupti atque nesciunt!</li>
+</ul>
+
+<!-- ul>li>lorem4^p*2>lorem6 -->
+<ul>
+   <li>Lorem ipsum dolor sit.</li>
+   <p>Lorem ipsum dolor sit amet consectetur.</p>
+   <p>Ab inventore veniam cumque. Illum, consequatur?</p>
+</ul>
+
+<!-- ul>li*3>lorem2^p*4>lorem1 -->
+<ul>
+   <li>Lorem, ipsum.</li>
+   <li>Libero, enim.</li>
+   <li>Reiciendis, veritatis.</li>
+   <p>Lorem.</p>
+   <p>Rerum.</p>
+   <p>Fugiat!</p>
+   <p>Ipsam.</p>
+</ul>
+
+<!-- ul>li*3>lorem2^^p*4>lorem1 -->
+<ul>
+   <li>Lorem, ipsum.</li>
+   <li>Quis, deleniti!</li>
+   <li>Magnam, consequatur.</li>
+</ul>
+<p>Lorem.</p>
+<p>Expedita.</p>
+<p>Dolorem.</p>
+<p>Neque.</p>
+
+<h3 class="deneme"></h3> <h3 class="deneme"></h3> <!--h3.deneme -->
+h3 <div class="deneme"></div>   <!--h3 .deneme -->
+
+<h3 id="idolussun">Lorem.</h3> <!--h3#idolussun>lorem1 --> 
+
+<h3 class="deneme" id="idolussun">Lorem.</h3> <!--h3.deneme#idolussun>lorem1-->
+
+<h3 class="birinci-class ikinci-class"></h3>  <!--h3.birinci-class.ikinci-class-->
+<h3 class="kodluyoruz html"></h3> <!--h3.kodluyoruz.html-->
+
+<div class="tepki"></div> <!--.tepki-->
+
+<ul>
+   <li class="tepki"></li>  <!--ul>li.tepki-->
+</ul>
+
+<ul>
+   <li class="tepki"></li>
+   <li class="tepki"></li> <!--ul>.tepki*3-->
+   <li class="tepki"></li>
+</ul>
+
+<ul class="class1">
+   <li class="class2"></li> <!--ul.class1>li.class2-->
+</ul>
+
+<ul id="id1">
+   <li id="id2"></li>  <!--ul#id1>li#id2-->
+</ul>
+
+<ul>
+   <li></li>
+   <li></li> <!--ul>li3-->
+   <li></li>
+</ul>
+
+
+<!-- ul>li#id1+li#id2+li#id3
+      bu ifadeyi daha pratik yazmak için 
+      ul>li#idNo$*3 kullanılır 
+-->
+
+
+<ul>
+   <li id="id1"></li>
+   <li id="id2"></li>         
+   <li id="id3"></li>
+</ul>
+ 
+<!--ul>li#idNo$*3-->
+<ul>
+   <li id="idNo1"></li>
+   <li id="idNo2"></li>
+   <li id="idNo3"></li>
+</ul>
+
+<p>Emmet ile tag içine text yazma</p> p{Emmet ile tag içine text yazma}
+ 
+<!--div tagı altında "item" id'sine sahip 10 kelimelik loremleri içeren 6 adet p tagı oluşturmak istersek-->
+
+div>p#item*6>lorem10
+
+<div>
+   <p id="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, aliquid.</p>
+   <p id="item">Cumque magni eligendi laborum recusandae repudiandae obcaecati officiis reprehenderit? Magnam.</p>
+   <p id="item">Fugiat voluptates provident perferendis nemo quam aliquam. Distinctio, voluptatum nam.</p>
+   <p id="item">Quos magni officiis eum, dolorum similique recusandae aliquid mollitia molestiae.</p>
+   <p id="item">Dicta velit, ducimus eos quas corporis harum dolores placeat pariatur!</p>
+   <p id="item">Harum officiis cupiditate maxime ex quam, voluptatibus facere sit laborum.</p>
+</div>
+
