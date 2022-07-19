@@ -238,3 +238,35 @@ div>p#item*6>lorem10
    <p id="item">Harum officiis cupiditate maxime ex quam, voluptatibus facere sit laborum.</p>
 </div>
 
+<!--görsellerle çalışmak-->
+<img src="kaynak anlamına gelir
+" alt="görseller gözükmeyince ne yazıdığını gösterir">
+
+<img src="https://assets.ubuntu.com/v1/8b4e89dd-68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3562393738373431393663303830316165643138633461312f38613536666636392d633961302d346236622d396265372d356563333835356361633334.svg"  title="klavye" alt="bilgisayar" >
+
+<!--çerçeve içine alma-->
+  <img src="https://picsum.photos/600/300" border=15  alt="lorem fotosu" >
+
+<img src="images/1.jpg" align=right alt="yol"> <!--başına slash koyma-->
+
+
+<img width="400" height="200" src="https://picsum.photos/200/300" alt="lorem foto">
+
+Ya da resim bir üst dizinde kalıyor olabilir. Bu durumda bir üst dizine çıkıp images dizinini bulup resmi çağırmak gerekiyor. (Üst dizine çıkmak için ../ kullanırız.)
+
+<img src="../images/ornek.jpg"/>
+<a href="https://picsum.photos/">
+<img src="images/1.jpg" alt="lorem sitesi">  
+</a> <!--resme tıklayınca linke yönlendirir-->
+
+<!--<map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz.-->
+
+ <!-- picture tagi ekran boyutlarına göre birden çok source kulllanmamızı sağlar bu sayede ekran boyutu değiştikçe farklı image'leri kullanabilirsiniz.--> 
+
+ <picture>
+   <source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+   
+   <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
+</picture>
+
+<!--image aranırken bir üst klasöre ../ ile çıkılabilir-->
