@@ -6,12 +6,20 @@
  <!-- 
     <h2></h2>
     <h3>açıklama kısmına al</h3> -->
+    <ul>
+      <li>
+         <a href="#footer">
+en alta
+         </a>
+      </li>
+    </ul>
+    
     <h2>HTML</h2>  
     <h3>Açıklamalarla Çalışmak</h3>
-    <p>slşdkjfslkşgjg</p>
-    <p>siklşdfslşkdgf
-    <p>sşldkişlsdk</p>
-    <p>slkdkds</p>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde natus quibusdam quae facere officia quis blanditiis et, nobis veniam, perspiciatis hic iure veritatis vero, autem harum cumque debitis eum?</p>
+    <p>Lorem.</p>
         
     <h3>Başlıklar ve Paragraflarla Çalışmak</h3>
     <p>şlsdfksdşlfk </p>
@@ -239,8 +247,11 @@ div>p#item*6>lorem10
 </div>
 
 <!--görsellerle çalışmak-->
+
 <img src="kaynak anlamına gelir
 " alt="görseller gözükmeyince ne yazıdığını gösterir">
+
+<!--title= ile resim üzeine mouse ile gelim-nince yazı çıkar-->
 
 <img src="https://assets.ubuntu.com/v1/8b4e89dd-68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3562393738373431393663303830316165643138633461312f38613536666636392d633961302d346236622d396265372d356563333835356361633334.svg"  title="klavye" alt="bilgisayar" >
 
@@ -255,6 +266,7 @@ div>p#item*6>lorem10
 Ya da resim bir üst dizinde kalıyor olabilir. Bu durumda bir üst dizine çıkıp images dizinini bulup resmi çağırmak gerekiyor. (Üst dizine çıkmak için ../ kullanırız.)
 
 <img src="../images/ornek.jpg"/>
+
 <a href="https://picsum.photos/">
 <img src="images/1.jpg" alt="lorem sitesi">  
 </a> <!--resme tıklayınca linke yönlendirir-->
@@ -270,3 +282,79 @@ Ya da resim bir üst dizinde kalıyor olabilir. Bu durumda bir üst dizine çık
 </picture>
 
 <!--image aranırken bir üst klasöre ../ ile çıkılabilir-->
+
+
+<!--LINKLER ILE ÇALIŞMAK-->
+
+<ul>
+   <li><a href="https://google.com"> 
+      buraya gidilcek
+      </a> 
+   </li>
+   <li>
+      <a href="https://google.com" target="_blank">
+         googlea gider
+   </li>
+   <li>
+      <a href="iletisim.html">
+
+         iletişim sayfasına gider 
+      </a>
+   </li>
+   <li>
+     <a href="#footer">
+
+   en alt kısma git 
+     </a> 
+   </li>
+   <li>
+      <a href="mailto:info@ajansay.com">
+
+         kodluyoruza mail at
+      </a>
+   </li>
+   <li>
+      <a href="tel:0551118857">
+
+         telefon et
+      </a>
+   </li>
+</ul>
+
+
+<!--başka bir sayfaya gitmek için a kullanılır-->
+
+<a href="https://google.com"> 
+buraya gidilcek
+</a>
+<br>
+<!--eğer sayfanın direkt olarak yeni sekmede açılması isteniyorsa: target= kullanılmalı-->
+
+<a href="https://google.com" target="_blank">
+googlea gider
+
+</a>
+<br> <!--alt alta yazmak istediğim-->
+
+<!--kendi webistemin içinde bir yere gitmek istiyorsam-->
+
+<a href="iletisim.html">
+
+   iletişim sayfasına gider 
+</a>
+ yazdıktan sonra iletişim sayufasında başka bir href yapısı oluşturdum.
+
+<br>
+
+<!--sayfanın bi yreine id vererek oraya yönlendirme-->
+
+ <h2  id="footer">en alt kısım</h2>
+ 
+ <p>Lorem, ipsum dolor.</p>
+
+ <a href="https://picsum.photos/"  target="_blank" >
+   <img src="images/1.jpg" 
+   title="lorem sitesine gidiniz" alt="lorem sitesi">  
+   
+</a> <!--resme tıklayınca linke yönlendirir-->
+   
